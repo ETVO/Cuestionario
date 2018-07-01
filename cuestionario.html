@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="js/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Prototipo Cuestionario - Doctorado Martina</title>
+</head>
+
+<body>
+	<div class="head"></div>
+	<div class="top">
+		<div class="nav">
+			<ul>
+				<li><a href="index.html">Introducción</a></li>
+				<li><a href="" id="active">Cuestionario</a></li>
+				<li><a href="info.html">Informaciones</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<center>
+		<div class="content">
+			<h1 style="margin-bottom: 0;">Cuestionario</h1>
+			<h3 style="margin-top: 0;">Competencias y necesidades formativas de entrenadores de voleibol en edad escolar</h3>
+
+
+			<h2 style="text-align:left">Orientaciones para responder el cuestionario:</h2>
+
+			<p>
+				A continuación se enumeran diversas competencias necesarias para el ejercicio de entrenador o entrenadora de voleibol indoor, que surgen de una investigación anterior y de la bibliografía consultada.
+				<br>Solicitamos que determine el grado de importancia que usted atribuye a cada competencia, así como a la necesidad de formación sentida. El orden presentado es aleatorio y no tiene relación con la importancia o jerarquía de esas competencias.
+			</p>
+
+			<form action="" class="query">
+
+				<div class="question">
+					<p>Antes de iniciar, por favor, indique a qué <b>NIVEL</b> de equipo/jugadores se refieren sus respuestas. Si actúa o ha actuado en diferentes niveles, le pedimos que responda de acuerdo con el nivel que tiene más experiencia o afinidad:</p>
+
+					<input type="radio" name="nivel" value="principiante" required> <label for="">Entrenador/a de <u>jugadores debutantes o principiantes</u>:<p>En equipos que, independientemente de la edad, están en su primer o segundo año de experiencia con la modalidad y utilizan sistemas tácticos básicos.</p></label>
+
+					<input type="radio" name="nivel" value="iniciado" required> <label for="">Entrenador/a de <u>jugadores iniciados</u>:<p>En equipos que, independientemente la edad, ya tienen alguna experiencia y están perfeccionando y variando sus habilidades. Utilizan sistemas tácticos intermediarios.</p></label>
+
+					<input type="radio" name="nivel" value="experimentado" required> <label for="">Entrenador/a de <u>jugadores experimentados</u>:<p>En equipos que, independientemente la edad, tienen bien dominado los fundamentos y técnicas básicos y están refinando sus habilidades con rigor y precisión. Utilizan sistemas tácticos intermediarios o avanzados y con sus variaciones.</p></label>
+				</div>
+
+				<hr>
+
+				<h2>Datos personales:</h2>
+
+				<div class="question">
+					<p><b>1. </b>Comunidad autónoma</p>
+
+					<select name="comunidad" size="1" class="select" required>
+						<option disabled selected>-- Seleccione una opción --</option>
+						<option value="Andalucía">Andalucía</option>
+						<option value="Aragón">Aragón</option>
+						<option value="Principado de Asturias">Principado de Asturias</option>
+						<option value="Islas Baleares">Islas Baleares</option>
+						<option value="Canarias">Canarias</option>
+						<option value="Cantabria">Cantabria</option>
+						<option value="Castilla-La Mancha">Castilla-La Mancha</option>
+						<option value="Castilla y León">Castilla y León</option>
+						<option value="Cataluña">Cataluña</option>
+						<option value="Comunidad Valenciana">Comunidad Valenciana</option>
+						<option value="Extremadura">Extremadura</option>
+						<option value="Galicia">Galicia</option>
+						<option value="La Rioja">La Rioja</option>
+						<option value="Comunidad de Madrid">Comunidad de Madrid</option>
+						<option value="Región de Murcia">Región de Murcia</option>
+						<option value="Comunidad Foral de Navarra">Comunidad Foral de Navarra</option>
+						<option value="País Vasco">País Vasco</option>
+						<option value="Ceuta">Ceuta</option>
+						<option value="Melilla">Melilla</option>
+					</select>
+				</div>
+
+				<div class="question">
+					<p><b>2. </b>Localidad de residencia:</p>
+
+					<input type="text" name="localidad-residencia" maxlength="100" class="short" required>
+				</div>
+
+				<div class="question">
+					<p><b>3. </b>¿Cuántas horas por semana, aproximadamente, dedica usted al entrenamiento de voleibol?</p>
+
+					<input type="number" name="horas-de-entrenamiento" class="value" min="1" max="1000">
+				</div>
+
+				<div class="question">
+					<p><b>4. </b>E-mail:</p>
+
+					<input type="email" name="email" class="short">
+				</div>
+
+				<hr>
+
+				<h2>Evaluación de las competencias y necesidades formativas</h2>
+
+				<div class="p">
+					Considerando su experiencia como entrenador de equipos de voleibol en edad escolar, evalúe su grado de concordancia con las cuestiones que siguen:
+					<div id="sub">
+						Para las cuestiones siguientes indique del 1 al 5 (1: valor mínimo; 5: valor máximo) cómo valora:
+						<span id="sub-a"><br><b>a)</b> La importancia que tiene cada una para su labor como entrenador</span>
+						<span id="sub-b"><br><b>b)</b> La necesidad de formación que considera usted que tiene en cada una de las cuestiones</span>
+					</div>
+				</div>
+
+				<div class="question">
+					<div class="hab">
+						<h3 id="name"><b>1. </b>La planificación reflexiva</h3>
+						<h4 id="item"><b>1.</b> Saber planificar y programar sesiones de entreno</h4>
+						<center>
+							<div class="item">
+								<div>
+									<table>
+										<tr>
+											<th>
+												<b onclick="alert('La importancia que tiene cada una para su labor como entrenador')" style="cursor: pointer">a)</b> Importancia para su labor:
+											</th>
+										</tr>
+
+										<tr>
+											<td>
+												<div class="eval">
+													<div>
+														<b>1</b><br><input type="radio" name="1.1.a" value="1"><br>Nada importante
+													</div>
+
+													<div>
+														<b>2</b><br><input type="radio" name="1.1.a" value="2"><br>Un poco importante
+													</div>
+
+													<div>
+														<b>3</b><br><input type="radio" name="1.1.a" value="3"><br>Importante
+													</div>
+
+													<div>
+														<b>4</b><br><input type="radio" name="1.1.a" value="4"><br>Muy importante
+													</div>
+
+													<div>
+														<b>5</b><br><input type="radio" name="1.1.a" value="5"><br>Extremamente importante
+													</div>
+												</div>
+											</td>
+										</tr>
+									</table>
+								</div>
+
+								<div>
+									<table>
+										<tr>
+											<th>
+												<a onclick="alert('La necesidad de formación que considera usted que tiene en cada una de las cuestiones')" style="cursor: pointer"><b>b)</b></a> Necesidad de formación:
+											</th>
+										</tr>
+
+										<tr>
+											<td>
+												<div class="eval">
+													<div>
+														<b>1</b><br><input type="radio" name="1.1.b" value="1"><br>Ninguna necesidad
+													</div>
+
+													<div>
+														<b>2</b><br><input type="radio" name="1.1.b" value="2"><br>Alguna necesidad
+													</div>
+
+													<div>
+														<b>3</b><br><input type="radio" name="1.1.b" value="3"><br>Hay necesidad
+													</div>
+
+													<div>
+														<b>4</b><br><input type="radio" name="1.1.b" value="4"><br>Mucha necesidad
+													</div>
+
+													<div>
+														<b>5</b><br><input type="radio" name="1.1.b" value="5"><br>Total necesidad
+													</div>
+												</div>
+											</td>
+										</tr>
+									</table>
+								</div>
+							</div>
+
+							<h4 id="item"><b>2.</b> Conocer los contenidos que hay que enseñar relacionándolos con objetivos y actividades de aprendizaje</h4>
+							<div class="item">
+
+								<div>
+									<table>
+										<tr>
+											<th>
+												<b onclick="alert('La importancia que tiene cada una para su labor como entrenador')" style="cursor: pointer">a)</b> Importancia para su labor:
+											</th>
+										</tr>
+
+										<tr>
+											<td>
+												<div class="eval">
+													<div>
+														<b>1</b><br><input type="radio" name="1.2.a" value="1"><br>Nada importante
+													</div>
+
+													<div>
+														<b>2</b><br><input type="radio" name="1.2.a" value="2"><br>Un poco importante
+													</div>
+
+													<div>
+														<b>3</b><br><input type="radio" name="1.2.a" value="3"><br>Importante
+													</div>
+
+													<div>
+														<b>4</b><br><input type="radio" name="1.2.a" value="4"><br>Muy importante
+													</div>
+
+													<div>
+														<b>5</b><br><input type="radio" name="1.2.a" value="5"><br>Extremamente importante
+													</div>
+												</div>
+											</td>
+										</tr>
+									</table>
+								</div>
+
+								<div>
+									<table>
+										<tr>
+											<th>
+												<a onclick="alert('La necesidad de formación que considera usted que tiene en cada una de las cuestiones')" style="cursor: pointer"><b>b)</b></a> Necesidad de formación:
+											</th>
+										</tr>
+
+										<tr>
+											<td>
+												<div class="eval">
+													<div>
+														<b>1</b><br><input type="radio" name="1.2.b" value="1"><br>Ninguna necesidad
+													</div>
+
+													<div>
+														<b>2</b><br><input type="radio" name="1.2.b" value="2"><br>Alguna necesidad
+													</div>
+
+													<div>
+														<b>3</b><br><input type="radio" name="1.2.b" value="3"><br>Hay necesidad
+													</div>
+
+													<div>
+														<b>4</b><br><input type="radio" name="1.2.b" value="4"><br>Mucha necesidad
+													</div>
+
+													<div>
+														<b>5</b><br><input type="radio" name="1.2.b" value="5"><br>Total necesidad
+													</div>
+												</div>
+											</td>
+										</tr>
+									</table>
+								</div>
+							</div>
+						</center>
+					</div>
+				</div>
+			</form>
+		</div>
+	</center>
+</body>
+
+</html>
