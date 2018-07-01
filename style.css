@@ -5,6 +5,7 @@
 		- #BE1521 (vermelho primário)
 		- #810009 (vermelho secundário)
 		- #e31a29 (vermelho normal)
+		- #c78009 (ouro primário)
 */
 
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Arimo|Dosis|Lato|Nunito+Sans|Open+Sans|Quattrocento+Sans|Quicksand|Raleway|Work+Sans');
@@ -29,7 +30,7 @@
 }
 
 *::-moz-selection {
-	background-color: #BE1521;
+	background-color: rgb(190, 21, 33);
 	color: white;
 }
 
@@ -146,7 +147,7 @@ a {
 
 .content {
 	padding: 5px;
-	width: 80%;
+	width: 75%;
 	text-align: left;
 	font-size: 18px;
 }
