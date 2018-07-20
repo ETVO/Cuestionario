@@ -45,7 +45,7 @@ function setup() {
 
 	polLabel(0, 0, diameter / 2, 6, habilidades, 0);
 
-	var ata = 30;
+	var ata = 87;
 	ata = map(ata, 0, 100, 0, diameter / 2);
 
 	var def = 90;
