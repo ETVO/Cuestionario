@@ -62,6 +62,10 @@ a {
 	color: #0000b7;
 }
 
+label {
+	cursor: pointer;
+}
+
 hr.apartado {
 	margin-left: -30px;
 	margin-right: -30px;

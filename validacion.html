@@ -4,7 +4,10 @@
 
 <head>
 	<meta charset="UTF-8">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="js/libraries/sisyphus/sisyphus.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
+
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Prototipo Cuestionario - Doctorado Martina</title>
 </head>
@@ -125,7 +128,7 @@
 
 				<p style="text-align: right">
 					Le damos las gracias por anticipado por su tiempo y su compromiso con este proyecto<br>
-					<b>Prime <a href="https://1drv.ms/b/s!AmrAFjBoR0-4rCfVedal7vTrOVsq">aquí</a> para descargar el documento</b>
+					<b>Prime <a href="https://1drv.ms/b/s!AmrAFjBoR0-4rCfVedal7vTrOVsq" target="_blank">aquí</a> para descargar el documento</b>
 				</p>
 
 				<center>
@@ -214,11 +217,11 @@
 				<div class="question">
 					<p>Antes de iniciar, por favor, indique a qué NIVEL de equipo-jugadores/as se refieren sus respuestas. Si actúa o ha actuado en diferentes niveles, le pedimos que responda de acuerdo con el nivel que <b>tiene más experiencia o afinidad</b></p>
 
-					<input type="radio" name="nivel" value="principiante" required> <label for="">Entrenador/a de <u>jugadores debutantes o principiantes</u>:<p>En equipos que, independientemente de la edad, están en su primer o segundo año de experiencia con la modalidad y utilizan sistemas tácticos básicos.</p></label>
+					<input type="radio" name="nivel" value="principiante" id="nivel1" required> <label for="nivel1">Entrenador/a de <u>jugadores debutantes o principiantes</u>:<p>En equipos que, independientemente de la edad, están en su primer o segundo año de experiencia con la modalidad y utilizan sistemas tácticos básicos.</p></label>
 
-					<input type="radio" name="nivel" value="iniciado" required> <label for="">Entrenador/a de <u>jugadores iniciados</u>:<p>En equipos que, independientemente la edad, ya tienen alguna experiencia y están perfeccionando y variando sus habilidades. Utilizan sistemas tácticos intermediarios.</p></label>
+					<input type="radio" name="nivel" value="iniciado" id="nivel2"> <label for="nivel2">Entrenador/a de <u>jugadores iniciados</u>:<p>En equipos que, independientemente la edad, ya tienen alguna experiencia y están perfeccionando y variando sus habilidades. Utilizan sistemas tácticos intermediarios.</p></label>
 
-					<input type="radio" name="nivel" value="experimentado" required> <label for="">Entrenador/a de <u>jugadores experimentados</u>:<p>En equipos que, independientemente la edad, tienen bien dominado los fundamentos y técnicas básicos y están refinando sus habilidades con rigor y precisión. Utilizan sistemas tácticos intermediarios o avanzados y con sus variaciones.</p></label>
+					<input type="radio" name="nivel" value="experimentado" id="nivel3"> <label for="nivel3">Entrenador/a de <u>jugadores experimentados</u>:<p>En equipos que, independientemente la edad, tienen bien dominado los fundamentos y técnicas básicos y están refinando sus habilidades con rigor y precisión. Utilizan sistemas tácticos intermediarios o avanzados y con sus variaciones.</p></label>
 				</div>
 
 				<center>
@@ -510,7 +513,7 @@
 				<hr>
 
 
-				<div class="hab">
+				<div class="amb">
 					<h3 id="name"><b>I. </b>Planificar reflexivamente</h3>
 					<h4 id="item"><b>1.</b> Planificar la temporada teniendo en cuenta las variables de los atletas, equipo, club y competición, estableciendo objetivos a corto, medio y largo plazo.</h4>
 					<center>

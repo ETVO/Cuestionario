@@ -2,8 +2,12 @@ var isMobile = true;
 
 //var validaHTML = '<table><tr><th>Claridad <b>(1 - 5)</b></th></tr><tr><td><div class="opts"><div><b>1</b><br><input type="radio" name="brad" value="1" required><br>Confuso</div><div><b>2</b><br><input type="radio" name="brad" value="2"><br>Un poco confuso</div><div><b>3</b><br><input type="radio" name="brad" value="3"><br>Compreensible</div><div><b>4</b><br><input type="radio" name="brad" value="4"><br>Muy claro</div><div><b>5</b><br><input type="radio" name="brad" value="5"><br>Totalmente claro</div></div></td></tr></table><table><tr><th>Comentarios <b>(opcional)</b></th></tr><tr><td><textarea name="bcom" id="comentario" maxlength="280" placeholder="Feu clic o toqueu aquí per escriure text."></textarea></td></tr></table>';
 
+$(function () {
+	$("form").sisyphus();
+});
 
 var adap = function adaptiveLayout() {
+
 	if (screen.height < screen.width) {
 		isMobile = false;
 	} else {
