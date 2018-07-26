@@ -1,0 +1,2258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/libraries/sisyphus/sisyphus.js"></script>
+	<script type="text/javascript" src="../js/main.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<title>Validación - Competencias del Voleibol</title>
+</head>
+
+<body>
+	<div class="head"></div>
+	<div class="top show">
+		<div class="nav">
+			<ul>
+				<li><a href="../">Inicio</a></li>
+				<li><a href="" id="active">Validación</a></li>
+				<li><a href="../info">Informaciones</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="dropdown">
+		<div class="title">
+			Validación
+		</div>
+		<button onclick="dropMenu()" class="dropdown_btn">Menu</button>
+		<div id="" class="dropdown_content">
+			<a href="../">Inicio</a>
+			<a href="" id="active">Validación</a>
+			<a href="../info">Informaciones</a>
+		</div>
+	</div>
+
+	<center>
+		<div class="content">
+			<h1 style="margin-bottom: 0;">Validación del Cuestionario</h1>
+			<h3 style="margin-top: 0;">Competencias y necesidades formativas de entrenadores de voleibol en edad escolar</h3>
+			<form action="" class="query">
+
+				<p>
+					Estimado entrenador evaluador, Estimada entrenadora evaluadora,
+					<br><br> Con este documento solicitamos que colabore en la validación del cuestionario que será enviado próximamente a entrenadores y entrenadoras de voleibol de todo el Estado español como parte de mi tesis doctoral. El cuestionario fue construido tras entrevistas exploratorias y la revisión de la literatura y tiene el objetivo de ayudar a identificar las competencias profesionales bien como las necesidades formativas de dichos entrenadores.
+					<br><br> Para el proceso de validación le pedimos que lea atentamente la pregunta y acto seguido rellene su valoración sobre la claridad del redactado de cada pregunta y también añadir comentarios si lo ve necesario. <b>NO DEBE RESPONDER A LA PREGUNTA, SOLO VALORAR EL GRADO DE CLARIDAD DE ESTA.</b>
+					<br><br> Tenga en cuenta la siguiente escala:
+				</p>
+
+				<center>
+					<table class="escala">
+						<tr>
+							<th>
+								Claridad
+							</th>
+						</tr>
+
+						<tr>
+							<td>
+								<div class="optsEscala">
+									<label>
+									<b>1</b><br>Muy confusa
+								</label>
+
+									<label>
+									<b>2</b><br>Confusa
+								</label>
+
+									<label>
+									<b>3</b><br>Poco clara
+								</label>
+
+									<label>
+									<b>4</b><br>Clara
+								</label>
+
+									<label>
+									<b>5</b><br>Totalmente clara
+								</label>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</center>
+
+				<p>
+					Nos comprometemos a preservar el anonimato de sus valoraciones y éstas solo serán tratadas por los investigadores. El uso que se hará de dicha información es puramente científico y sólo figurarás, si no nos dice lo contrario, como experto/a que ha participado en este estudio.
+					<br><br>Estamos a disposición para cualquier comentario o aclaramiento través el siguiente e-mail:
+					<br><a href="mailto:martinarolim@gmail.com?Subject=Doctorado%20-%20Voleibol%20Competencias">martinarolim@gmail.com</a> o teléfono: 605 426 904
+					<br><br>¡Muchas gracias!
+				</p>
+
+				<h2 class="titApartado"><b>A.</b> El Consentimiento Informado</h2>
+				<hr class="apartado">
+
+				<div class="aviso">
+					<div style="display: flex; text-align: center;">
+						<img alt="Atención!" class="imgInfo">
+					</div>
+
+					<div>
+						<b>Estimado/a evaluador/a:</b><br>El consentimiento a continuación es para el cuestionario final, ahora sólo necesitamos que nos diga si lo ve comprensible, indicando el grado de claridad de su redactado.
+					</div>
+				</div>
+
+				<div style="font-size: 20px; font-weight: bold; margin-top: 1em;">
+					CONSENTIMIENTO INFORMADO POR ESCRITO - PARTICIPANTES EN EL CUESTIONARIO DEL ESTUDIO INTITULADO: <br><span style="color:#c78009; font-size: 24px">“Las competencias profesionales y las necesidades formativas del entrenador de voleibol implicado en el deporte en edad escolar”</span>
+					<br>
+					<div class="half_grid">
+						<div>
+							Investigador:<br><span style="font-weight: normal">Martina Kieling Sebold Barros Rolim</span>
+						</div>
+						<div>
+							Firma del investigador:
+							<div>
+								<img src="../imgs/firma.png" alt="" style="height: 50px;">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<p>
+					El objetivo de esta información es ayudarle a tomar la decisión de participar en nuestra investigación.
+					<br><br> Inicialmente deberá contestar una encuesta respecto a su grado de concordancia sobre las competencias de los entrenadores y entrenadoras de voleibol implicados en el deporte en edad escolar y también sobre el grado del dominio de esa competencia.
+					<br><br>La información que nos brinde será tratada de manera confidencial y anónima. En ningún caso sus respuestas serán presentadas acompañadas de su nombre o de algún dato que le identifique. Su participación es totalmente voluntaria y puede darla por terminada en cualquier momento. Asimismo, puede plantear todas sus dudas respecto a la investigación antes, durante y después de su participación al mail:
+					<br><b><a href="mailto:martina@voleibol-competencias.com?Subject=Validaci%C3%B3n%20del%20Cuestionario">martina@voleibol-competencias.com</a></b>
+				</p>
+
+				<center>
+					<div class="half_grid consente">
+						<label for="acepta" onclick="alert('El consentimiento es sólo para el cuestionario final, ahora necesitamos que nos diga si lo ve comprensible.')">
+						<b>Acepto</b> participar del estudio<br><input type="radio" name="consentimiento" value="true" id="acepta" disabled>
+					</label>
+						<label for="no_acepta" onclick="alert('El consentimiento es sólo para el cuestionario final, ahora necesitamos que nos diga si lo ve comprensible.')">
+						<b>No acepto</b> participar del estudio<br><input type="radio" name="consentimiento" value="false"id="no_acepta" disabled>
+					</label>
+					</div>
+				</center>
+
+				<p style="text-align: right">
+					Le damos las gracias por anticipado por su tiempo y su compromiso con este proyecto<br>
+				</p>
+
+				<center>
+					<div class="valida">
+						<table>
+							<tr>
+								<th>
+									<label onclick="alert('1 = Muy confusa\n5 = Totalmente clara')">Claridad</label>
+								</th>
+							</tr>
+
+							<tr>
+								<td>
+									<div class="opts">
+										<label for="arad1">
+										<b>1</b><br><input type="radio" name="arad" value="1" id="arad1" required>
+									</label>
+
+										<label for="arad2">
+										<b>2</b><br><input type="radio" name="arad" value="2" id="arad2">
+									</label>
+
+										<label for="arad3">
+										<b>3</b><br><input type="radio" name="arad" value="3" id="arad3">
+									</label>
+
+										<label for="arad4">
+										<b>4</b><br><input type="radio" name="arad" value="4" id="arad4">
+									</label>
+
+										<label for="arad5">
+										<b>5</b><br><input type="radio" name="arad" value="5" id="arad5">
+									</label>
+									</div>
+								</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th>
+									Comentarios <b>(opcional)</b>
+								</th>
+							</tr>
+
+							<tr>
+								<td>
+									<textarea name="acom" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</center>
+
+				<h2 class="titApartado"><b>B.</b> Orientaciones para responder el cuestionario</h2>
+				<hr class="apartado">
+
+				<div class="aviso">
+					<div style="display: flex; text-align: center;">
+						<img alt="Atención!" class="imgInfo">
+					</div>
+
+					<div>
+						<b>Estimado/a evaluador/a:</b><br> Esta orientación es para el cuestionario final, ahora sólo necesitamos que nos diga si la ve comprensible
+					</div>
+				</div>
+
+
+				<p>
+					A continuación se enumeran diversas competencias necesarias para el ejercicio de entrenador o entrenadora de voleibol indoor, que surgen de una investigación anterior y de la bibliografía consultada.
+				</p>
+
+				<center>
+					<div class="destaque">
+						<i>
+							La definición de competencia, para ese estudio, será, en un sentido amplio: <b>“realizar una actividad con eficiencia en un contexto dado”</b> (Gámez, 2005) y en un sentido más específico: tener un <b>“repertorio de comportamientos que conllevan todo un conjunto de conocimientos, procedimientos y actitudes combinados, coordinados e integrados, en el sentido de que el individuo debe saber hacer y saber estar para la tarea que se le solicita”</b> (Lévy-Leboyer, 2003)
+						</i>
+					</div>
+
+					<div class="destaque">
+						<i>
+							Quizás le interesa aclarar el término “deporte escolar”. Nosotros coincidimos con los autores Gómez y García (1993) que o definen como: “Toda actividad físico-deportiva realizada por niños/as jóvenes en edad escolar, dentro o fuera del centro escolar, incluso la desarrollada en el ámbito de clubs o de otras entidades públicas o privadas, considerando, por lo tanto, <b>deporte escolar como sinónimo de deporte en edad escolar</b>” 
+						</i>
+					</div>
+				</center>
+
+				<p>
+					Teniendo en cuenta esas definiciones, solicitamos que determine el grado de importancia que usted atribuye a cada competencia descrita a continuación, así como a la percepción de su dominio sobre la misma. El orden presentado es aleatorio y no tiene relación con la importancia o jerarquía de esas competencias.
+				</p>
+
+				<hr>
+
+				<div class="question">
+					<p>Antes de iniciar, por favor, indique a qué NIVEL de equipo-jugadores/as se refieren sus respuestas. Si actúa o ha actuado en diferentes niveles, le pedimos que responda de acuerdo con el nivel que <b>tiene más experiencia o afinidad</b></p>
+
+					<input type="radio" name="nivel" value="principiante" id="nivel1" disabled> <label for="nivel1">Entrenador/a de <u>jugadores debutantes o principiantes</u>:<p>En equipos que, independientemente de la edad, están en su primer o segundo año de experiencia con la modalidad y utilizan sistemas tácticos básicos.</p></label>
+
+					<input type="radio" name="nivel" value="iniciado" id="nivel2" disabled> <label for="nivel2">Entrenador/a de <u>jugadores iniciados</u>:<p>En equipos que, independientemente la edad, ya tienen alguna experiencia y están perfeccionando y variando sus habilidades. Utilizan sistemas tácticos intermediarios.</p></label>
+
+					<input type="radio" name="nivel" value="experimentado" id="nivel3" disabled> <label for="nivel3">Entrenador/a de <u>jugadores experimentados</u>:<p>En equipos que, independientemente la edad, tienen bien dominado los fundamentos y técnicas básicos y están refinando sus habilidades con rigor y precisión. Utilizan sistemas tácticos intermediarios o avanzados y con sus variaciones.</p></label>
+				</div>
+
+				<center>
+					<div class="valida">
+						<table>
+							<tr>
+								<th>
+									<label onclick="alert('1 = Muy confusa\n5 = Totalmente clara')">Claridad</label>
+								</th>
+							</tr>
+
+							<tr>
+								<td>
+									<div class="opts">
+										<label for="brad1">
+										<b>1</b><br><input type="radio" name="brad" value="1" id="brad1" required>
+									</label>
+
+										<label for="brad2">
+										<b>2</b><br><input type="radio" name="brad" value="2" id="brad2">
+									</label>
+
+										<label for="brad3">
+										<b>3</b><br><input type="radio" name="brad" value="3" id="brad3">
+									</label>
+
+										<label for="brad4">
+										<b>4</b><br><input type="radio" name="brad" value="4" id="brad4">
+									</label>
+
+										<label for="brad5">
+										<b>5</b><br><input type="radio" name="brad" value="5" id="brad5">
+									</label>
+									</div>
+								</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th>
+									Comentarios <b>(opcional)</b>
+								</th>
+							</tr>
+
+							<tr>
+								<td>
+									<textarea name="bcom" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</center>
+
+
+
+				<h2 class="titApartado"><b>C.</b> Evaluación de las competencias y dominio sobre esas competencias</h2>
+				<hr class="apartado">
+
+				<div class="aviso">
+					<div style="display: flex; text-align: center;">
+						<img alt="Atención!" class="imgInfo">
+					</div>
+
+					<div>
+						<b>Estimado/a evaluador/a:</b><br> En el cuestionario final los y las entrenadores/as verán las preguntas de acuerdo con el ejemplo a continuación, por favor, diga si lo ve comprensible
+					</div>
+				</div>
+
+				<div class="p">
+					Considerando su experiencia como entrenador o entrenadora de voleibol indique del 1 al 5 cómo valora las competencias a continuación con relación a:
+					<ul>
+						<li><b>a.</b> La importancia que da usted para la labor del entrenador de voleibol en edad escolar</li>
+						<li><b>b.</b> La percepción sobre su dominio de esa competencia</li>
+					</ul>
+				</div>
+
+				<center>
+					<a href="../imgs/modelo_apC.png"><img src="../imgs/modelo_apC.png" title="Haga clic para ver la imagen con mejor resolución" alt="Modelo Ámbito/Competencia" id="modelo_apC"></a>
+				</center>
+
+				<center>
+					<div class="valida">
+						<table>
+							<tr>
+								<th>
+									<label onclick="alert('1 = Muy confusa\n5 = Totalmente clara')">Claridad</label>
+								</th>
+							</tr>
+
+							<tr>
+								<td>
+									<div class="opts">
+										<label for="crad1">
+										<b>1</b><br><input type="radio" name="crad" value="1" id="crad1" required>
+									</label>
+
+										<label for="crad2">
+										<b>2</b><br><input type="radio" name="crad" value="2" id="crad2">
+									</label>
+
+										<label for="crad3">
+										<b>3</b><br><input type="radio" name="crad" value="3" id="crad3">
+									</label>
+
+										<label for="crad4">
+										<b>4</b><br><input type="radio" name="crad" value="4" id="crad4">
+									</label>
+
+										<label for="crad5">
+										<b>5</b><br><input type="radio" name="crad" value="5" id="crad5">
+									</label>
+									</div>
+								</td>
+							</tr>
+						</table>
+
+						<table>
+							<tr>
+								<th>
+									Comentarios <b>(opcional)</b>
+								</th>
+							</tr>
+
+							<tr>
+								<td>
+									<textarea name="ccom" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</center>
+
+				<h3 style="margin-bottom: -10px; margin-top: 30px;">Validacion de las competencias</h3>
+				<hr>
+
+
+
+				<div class="validaAmb">
+					<div class="tituloAmb cellAmb">
+						<h3><b>I.</b> Planificar reflexivamente</h3>
+					</div>
+
+					<div class="legClaridadAmb cellAmb">
+						<h4>
+							<label onclick="alert('1 = Muy confusa\n5 = Totalmente clara')">Claridad</label>
+						</h4>
+					</div>
+
+					<div class="legComentarioAmb cellAmb">
+						<h4>
+							Comentarios <b>(opcional)</b>
+						</h4>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>1.</b> Planificar la temporada teniendo en cuenta las variables de los/las jugadores/as, equipo, club y competición, estableciendo objetivos a corto, medio y largo plazo.
+						</div>
+
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="I.1rad1">
+							<b>1</b><br><input type="radio" name="I.1rad" value="1" id="I.1rad1" required>
+						</label>
+
+								<label for="I.1rad2">
+							<b>2</b><br><input type="radio" name="I.1rad" value="2" id="I.1rad2">
+						</label>
+
+								<label for="I.1rad3">
+							<b>3</b><br><input type="radio" name="I.1rad" value="3" id="I.1rad3">
+						</label>
+
+								<label for="I.1rad4">
+							<b>4</b><br><input type="radio" name="I.1rad" value="4" id="I.1rad4">
+						</label>
+
+								<label for="I.1rad5">
+							<b>5</b><br><input type="radio" name="I.1rad" value="5" id="I.1rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="I.1com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>2.</b> Hacer una periodización completa (física, técnica, táctica y psicológica o actitudinal) para la temporada.
+						</div>
+
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="I.2rad1">
+							<b>1</b><br><input type="radio" name="I.2rad" value="1" id="I.2rad1" required>
+						</label>
+
+								<label for="I.2rad2">
+							<b>2</b><br><input type="radio" name="I.2rad" value="2" id="I.2rad2">
+						</label>
+
+								<label for="I.2rad3">
+							<b>3</b><br><input type="radio" name="I.2rad" value="3" id="I.2rad3">
+						</label>
+
+								<label for="I.2rad4">
+							<b>4</b><br><input type="radio" name="I.2rad" value="4" id="I.2rad4">
+						</label>
+
+								<label for="I.2rad5">
+							<b>5</b><br><input type="radio" name="I.2rad" value="5" id="I.2rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="I.2com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>3.</b> Planificar las cargas de trabajo de acuerdo con los objetivos del equipo o jugador/a.
+						</div>
+
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="I.3rad1">
+							<b>1</b><br><input type="radio" name="I.3rad" value="1" id="I.3rad1" required>
+						</label>
+
+								<label for="I.3rad2">
+							<b>2</b><br><input type="radio" name="I.3rad" value="2" id="I.3rad2">
+						</label>
+
+								<label for="I.3rad3">
+							<b>3</b><br><input type="radio" name="I.3rad" value="3" id="I.3rad3">
+						</label>
+
+								<label for="I.3rad4">
+							<b>4</b><br><input type="radio" name="I.3rad" value="4" id="I.3rad4">
+						</label>
+
+								<label for="I.3rad5">
+							<b>5</b><br><input type="radio" name="I.3rad" value="5" id="I.3rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="I.3com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>4.</b> Programar actividades de aprendizaje de acuerdo con los contenidos y objetivos de la planificación.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="I.4rad1">
+							<b>1</b><br><input type="radio" name="I.4rad" value="1" id="I.4rad1" required>
+						</label>
+
+								<label for="I.4rad2">
+							<b>2</b><br><input type="radio" name="I.4rad" value="2" id="I.4rad2">
+						</label>
+
+								<label for="I.4rad3">
+							<b>3</b><br><input type="radio" name="I.4rad" value="3" id="I.4rad3">
+						</label>
+
+								<label for="I.4rad4">
+							<b>4</b><br><input type="radio" name="I.4rad" value="4" id="I.4rad4">
+						</label>
+
+								<label for="I.4rad5">
+							<b>5</b><br><input type="radio" name="I.4rad" value="5" id="I.4rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="I.4com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>5.</b> Adaptar la programación a las necesidades individuales de cada jugador/a
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="I.5rad1">
+							<b>1</b><br><input type="radio" name="I.5rad" value="1" id="I.5rad1" required>
+						</label>
+
+								<label for="I.5rad2">
+							<b>2</b><br><input type="radio" name="I.5rad" value="2" id="I.5rad2">
+						</label>
+
+								<label for="I.5rad3">
+							<b>3</b><br><input type="radio" name="I.5rad" value="3" id="I.5rad3">
+						</label>
+
+								<label for="I.5rad4">
+							<b>4</b><br><input type="radio" name="I.5rad" value="4" id="I.5rad4">
+						</label>
+
+								<label for="I.5rad5">
+							<b>5</b><br><input type="radio" name="I.5rad" value="5" id="I.5rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="I.5com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>6.</b> Gestionar la plantilla de jugadores/as antes, durante y después de los entrenos y partidos (convocatorias, promoción, etc.).
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="I.6rad1">
+							<b>1</b><br><input type="radio" name="I.6rad" value="1" id="I.6rad1" required>
+						</label>
+
+								<label for="I.6rad2">
+							<b>2</b><br><input type="radio" name="I.6rad" value="2" id="I.6rad2">
+						</label>
+
+								<label for="I.6rad3">
+							<b>3</b><br><input type="radio" name="I.6rad" value="3" id="I.6rad3">
+						</label>
+
+								<label for="I.6rad4">
+							<b>4</b><br><input type="radio" name="I.6rad" value="4" id="I.6rad4">
+						</label>
+
+								<label for="I.6rad5">
+							<b>5</b><br><input type="radio" name="I.6rad" value="5" id="I.6rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="I.6com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+				</div>
+
+				<div class="validaAmb">
+					<div class="tituloAmb cellAmb">
+						<h3><b>II.</b> Gestionar las sesiones de entrenamientos y partidos</h3>
+					</div>
+
+					<div class="legClaridadAmb cellAmb">
+						<h4>
+							<label onclick="alert('1 = Muy confusa\n5 = Totalmente clara')">Claridad</label>
+						</h4>
+					</div>
+
+					<div class="legComentarioAmb cellAmb">
+						<h4>
+							Comentarios <b>(opcional)</b>
+						</h4>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>7.</b> Controlar las variables que interfieren las sesiones de entreno o partidos (tiempo, materiales, conflictos, entre otros).
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="II.7rad1">
+							<b>1</b><br><input type="radio" name="II.7rad" value="1" id="II.7rad1" required>
+						</label>
+
+								<label for="II.7rad2">
+							<b>2</b><br><input type="radio" name="II.7rad" value="2" id="II.7rad2">
+						</label>
+
+								<label for="II.7rad3">
+							<b>3</b><br><input type="radio" name="II.7rad" value="3" id="II.7rad3">
+						</label>
+
+								<label for="II.7rad4">
+							<b>4</b><br><input type="radio" name="II.7rad" value="4" id="II.7rad4">
+						</label>
+
+								<label for="II.7rad5">
+							<b>5</b><br><input type="radio" name="II.7rad" value="5" id="II.7rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="II.7com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>8.</b> Gestionar las cargas de trabajo de acuerdo con los objetivos del equipo o jugador/a y adaptarlas de acuerdo con las necesidades
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="II.8rad1">
+							<b>1</b><br><input type="radio" name="II.8rad" value="1" id="II.8rad1" required>
+						</label>
+
+								<label for="II.8rad2">
+							<b>2</b><br><input type="radio" name="II.8rad" value="2" id="II.8rad2">
+						</label>
+
+								<label for="II.8rad3">
+							<b>3</b><br><input type="radio" name="II.8rad" value="3" id="II.8rad3">
+						</label>
+
+								<label for="II.8rad4">
+							<b>4</b><br><input type="radio" name="II.8rad" value="4" id="II.8rad4">
+						</label>
+
+								<label for="II.8rad5">
+							<b>5</b><br><input type="radio" name="II.8rad" value="5" id="II.8rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="II.8com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>9.</b> Gestionar las cargas de trabajo a los jugadores/as en rehabilitación de una lesión deportiva.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="II.9rad1">
+							<b>1</b><br><input type="radio" name="II.9rad" value="1" id="II.9rad1" required>
+						</label>
+
+								<label for="II.9rad2">
+							<b>2</b><br><input type="radio" name="II.9rad" value="2" id="II.9rad2">
+						</label>
+
+								<label for="II.9rad3">
+							<b>3</b><br><input type="radio" name="II.9rad" value="3" id="II.9rad3">
+						</label>
+
+								<label for="II.9rad4">
+							<b>4</b><br><input type="radio" name="II.9rad" value="4" id="II.9rad4">
+						</label>
+
+								<label for="II.9rad5">
+							<b>5</b><br><input type="radio" name="II.9rad" value="5" id="II.9rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="II.9com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>10.</b> Prestar primeros auxilios en situaciones de lesión durante entrenamiento y partidos
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="II.10rad1">
+							<b>1</b><br><input type="radio" name="II.10rad" value="1" id="II.10rad1" required>
+						</label>
+
+								<label for="II.10rad2">
+							<b>2</b><br><input type="radio" name="II.10rad" value="2" id="II.10rad2">
+						</label>
+
+								<label for="II.10rad3">
+							<b>3</b><br><input type="radio" name="II.10rad" value="3" id="II.10rad3">
+						</label>
+
+								<label for="II.10rad4">
+							<b>4</b><br><input type="radio" name="II.10rad" value="4" id="II.10rad4">
+						</label>
+
+								<label for="II.10rad5">
+							<b>5</b><br><input type="radio" name="II.10rad" value="5" id="II.10rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="II.10com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>11.</b> Evaluar y gestionar la estrategia del propio equipo en consecuencia del análisis del equipo contrario antes y durante los partidos.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="II.11rad1">
+							<b>1</b><br><input type="radio" name="II.11rad" value="1" id="II.11rad1" required>
+						</label>
+
+								<label for="II.11rad2">
+							<b>2</b><br><input type="radio" name="II.11rad" value="2" id="II.11rad2">
+						</label>
+
+								<label for="II.11rad3">
+							<b>3</b><br><input type="radio" name="II.11rad" value="3" id="II.11rad3">
+						</label>
+
+								<label for="II.11rad4">
+							<b>4</b><br><input type="radio" name="II.11rad" value="4" id="II.11rad4">
+						</label>
+
+								<label for="II.11rad5">
+							<b>5</b><br><input type="radio" name="II.11rad" value="5" id="II.11rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="II.11com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>12.</b> Evaluar los efectos de las actividades programadas, teniendo en cuenta los objetivos programados.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="II.12rad1">
+							<b>1</b><br><input type="radio" name="II.12rad" value="1" id="II.12rad1" required>
+						</label>
+
+								<label for="II.12rad2">
+							<b>2</b><br><input type="radio" name="II.12rad" value="2" id="II.12rad2">
+						</label>
+
+								<label for="II.12rad3">
+							<b>3</b><br><input type="radio" name="II.12rad" value="3" id="II.12rad3">
+						</label>
+
+								<label for="II.12rad4">
+							<b>4</b><br><input type="radio" name="II.12rad" value="4" id="II.12rad4">
+						</label>
+
+								<label for="II.12rad5">
+							<b>5</b><br><input type="radio" name="II.12rad" value="5" id="II.12rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="II.12com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+				</div>
+
+				<div class="validaAmb">
+					<div class="tituloAmb cellAmb">
+						<h3><b>III.</b> Saber enseñar la modalidad</h3>
+					</div>
+
+					<div class="legClaridadAmb cellAmb">
+						<h4>
+							<label onclick="alert('1 = Muy confusa\n5 = Totalmente clara')">Claridad</label>
+						</h4>
+					</div>
+
+					<div class="legComentarioAmb cellAmb">
+						<h4>
+							Comentarios <b>(opcional)</b>
+						</h4>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>13.</b> Aplicar nociones básicas de la preparación física adaptados a la edad y el género del/la practicante.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="III.13rad1">
+							<b>1</b><br><input type="radio" name="III.13rad" value="1" id="III.13rad1" required>
+						</label>
+
+								<label for="III.13rad2">
+							<b>2</b><br><input type="radio" name="III.13rad" value="2" id="III.13rad2">
+						</label>
+
+								<label for="III.13rad3">
+							<b>3</b><br><input type="radio" name="III.13rad" value="3" id="III.13rad3">
+						</label>
+
+								<label for="III.13rad4">
+							<b>4</b><br><input type="radio" name="III.13rad" value="4" id="III.13rad4">
+						</label>
+
+								<label for="III.13rad5">
+							<b>5</b><br><input type="radio" name="III.13rad" value="5" id="III.13rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="III.13com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>14.</b> Aplicar metodologías específicas para la enseñanza de los deportes.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="III.14rad1">
+							<b>1</b><br><input type="radio" name="III.14rad" value="1" id="III.14rad1" required>
+						</label>
+
+								<label for="III.14rad2">
+							<b>2</b><br><input type="radio" name="III.14rad" value="2" id="III.14rad2">
+						</label>
+
+								<label for="III.14rad3">
+							<b>3</b><br><input type="radio" name="III.14rad" value="3" id="III.14rad3">
+						</label>
+
+								<label for="III.14rad4">
+							<b>4</b><br><input type="radio" name="III.14rad" value="4" id="III.14rad4">
+						</label>
+
+								<label for="III.14rad5">
+							<b>5</b><br><input type="radio" name="III.14rad" value="5" id="III.14rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="III.14com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>15.</b> Aplicar nociones de psicología del deporte.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="III.15rad1">
+							<b>1</b><br><input type="radio" name="III.15rad" value="1" id="III.15rad1" required>
+						</label>
+
+								<label for="III.15rad2">
+							<b>2</b><br><input type="radio" name="III.15rad" value="2" id="III.15rad2">
+						</label>
+
+								<label for="III.15rad3">
+							<b>3</b><br><input type="radio" name="III.15rad" value="3" id="III.15rad3">
+						</label>
+
+								<label for="III.15rad4">
+							<b>4</b><br><input type="radio" name="III.15rad" value="4" id="III.15rad4">
+						</label>
+
+								<label for="III.15rad5">
+							<b>5</b><br><input type="radio" name="III.15rad" value="5" id="III.15rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="III.15com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>16.</b> Enseñar el reglamento oficial de la modalidad.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="III.16rad1">
+							<b>1</b><br><input type="radio" name="III.16rad" value="1" id="III.16rad1" required>
+						</label>
+
+								<label for="III.16rad2">
+							<b>2</b><br><input type="radio" name="III.16rad" value="2" id="III.16rad2">
+						</label>
+
+								<label for="III.16rad3">
+							<b>3</b><br><input type="radio" name="III.16rad" value="3" id="III.16rad3">
+						</label>
+
+								<label for="III.16rad4">
+							<b>4</b><br><input type="radio" name="III.16rad" value="4" id="III.16rad4">
+						</label>
+
+								<label for="III.16rad5">
+							<b>5</b><br><input type="radio" name="III.16rad" value="5" id="III.16rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="III.16com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>17.</b> Utilizar las nuevas tecnologías aplicadas a la enseñanza de los deportes.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="III.17rad1">
+							<b>1</b><br><input type="radio" name="III.17rad" value="1" id="III.17rad1" required>
+						</label>
+
+								<label for="III.17rad2">
+							<b>2</b><br><input type="radio" name="III.17rad" value="2" id="III.17rad2">
+						</label>
+
+								<label for="III.17rad3">
+							<b>3</b><br><input type="radio" name="III.17rad" value="3" id="III.17rad3">
+						</label>
+
+								<label for="III.17rad4">
+							<b>4</b><br><input type="radio" name="III.17rad" value="4" id="III.17rad4">
+						</label>
+
+								<label for="III.17rad5">
+							<b>5</b><br><input type="radio" name="III.17rad" value="5" id="III.17rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="III.17com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>18.</b> Crear y aplicar modelos de juego (táctica colectiva e individual) de acuerdo con las características individuales y del equipo.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="III.18rad1">
+							<b>1</b><br><input type="radio" name="III.18rad" value="1" id="III.18rad1" required>
+						</label>
+
+								<label for="III.18rad2">
+							<b>2</b><br><input type="radio" name="III.18rad" value="2" id="III.18rad2">
+						</label>
+
+								<label for="III.18rad3">
+							<b>3</b><br><input type="radio" name="III.18rad" value="3" id="III.18rad3">
+						</label>
+
+								<label for="III.18rad4">
+							<b>4</b><br><input type="radio" name="III.18rad" value="4" id="III.18rad4">
+						</label>
+
+								<label for="III.18rad5">
+							<b>5</b><br><input type="radio" name="III.18rad" value="5" id="III.18rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="III.18com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>19.</b> Identificar errores y ofrecer retroalimentación.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="III.19rad1">
+							<b>1</b><br><input type="radio" name="III.19rad" value="1" id="III.19rad1" required>
+						</label>
+
+								<label for="III.19rad2">
+							<b>2</b><br><input type="radio" name="III.19rad" value="2" id="III.19rad2">
+						</label>
+
+								<label for="III.19rad3">
+							<b>3</b><br><input type="radio" name="III.19rad" value="3" id="III.19rad3">
+						</label>
+
+								<label for="III.19rad4">
+							<b>4</b><br><input type="radio" name="III.19rad" value="4" id="III.19rad4">
+						</label>
+
+								<label for="III.19rad5">
+							<b>5</b><br><input type="radio" name="III.19rad" value="5" id="III.19rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="III.19com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+				</div>
+
+				<div class="validaAmb">
+					<div class="tituloAmb cellAmb">
+						<h3><b>IV.</b> Contribuir al desarrollo de valores en los/as deportistas, con implicación de las familias</h3>
+					</div>
+
+					<div class="legClaridadAmb cellAmb">
+						<h4>
+							<label onclick="alert('1 = Muy confusa\n5 = Totalmente clara')">Claridad</label>
+						</h4>
+					</div>
+
+					<div class="legComentarioAmb cellAmb">
+						<h4>
+							Comentarios <b>(opcional)</b>
+						</h4>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>20.</b> Prevenir la violencia en la práctica deportiva y en la sociedad.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="IV.20rad1">
+							<b>1</b><br><input type="radio" name="IV.20rad" value="1" id="IV.20rad1" required>
+						</label>
+
+								<label for="IV.20rad2">
+							<b>2</b><br><input type="radio" name="IV.20rad" value="2" id="IV.20rad2">
+						</label>
+
+								<label for="IV.20rad3">
+							<b>3</b><br><input type="radio" name="IV.20rad" value="3" id="IV.20rad3">
+						</label>
+
+								<label for="IV.20rad4">
+							<b>4</b><br><input type="radio" name="IV.20rad" value="4" id="IV.20rad4">
+						</label>
+
+								<label for="IV.20rad5">
+							<b>5</b><br><input type="radio" name="IV.20rad" value="5" id="IV.20rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="IV.20com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>21.</b> Ayudar a luchar contra los prejuicios y las discriminaciones sexuales, étnicas y sociales.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="IV.21rad1">
+							<b>1</b><br><input type="radio" name="IV.21rad" value="1" id="IV.21rad1" required>
+						</label>
+
+								<label for="IV.21rad2">
+							<b>2</b><br><input type="radio" name="IV.21rad" value="2" id="IV.21rad2">
+						</label>
+
+								<label for="IV.21rad3">
+							<b>3</b><br><input type="radio" name="IV.21rad" value="3" id="IV.21rad3">
+						</label>
+
+								<label for="IV.21rad4">
+							<b>4</b><br><input type="radio" name="IV.21rad" value="4" id="IV.21rad4">
+						</label>
+
+								<label for="IV.21rad5">
+							<b>5</b><br><input type="radio" name="IV.21rad" value="5" id="IV.21rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="IV.21com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>22.</b> Crear y aplicar reglas referentes a la disciplina.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="IV.22rad1">
+							<b>1</b><br><input type="radio" name="IV.22rad" value="1" id="IV.22rad1" required>
+						</label>
+
+								<label for="IV.22rad2">
+							<b>2</b><br><input type="radio" name="IV.22rad" value="2" id="IV.22rad2">
+						</label>
+
+								<label for="IV.22rad3">
+							<b>3</b><br><input type="radio" name="IV.22rad" value="3" id="IV.22rad3">
+						</label>
+
+								<label for="IV.22rad4">
+							<b>4</b><br><input type="radio" name="IV.22rad" value="4" id="IV.22rad4">
+						</label>
+
+								<label for="IV.22rad5">
+							<b>5</b><br><input type="radio" name="IV.22rad" value="5" id="IV.22rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="IV.22com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>23.</b> Desarrollar valores de convivencia en grupo y valores de desarrollo personal.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="IV.23rad1">
+							<b>1</b><br><input type="radio" name="IV.23rad" value="1" id="IV.23rad1" required>
+						</label>
+
+								<label for="IV.23rad2">
+							<b>2</b><br><input type="radio" name="IV.23rad" value="2" id="IV.23rad2">
+						</label>
+
+								<label for="IV.23rad3">
+							<b>3</b><br><input type="radio" name="IV.23rad" value="3" id="IV.23rad3">
+						</label>
+
+								<label for="IV.23rad4">
+							<b>4</b><br><input type="radio" name="IV.23rad" value="4" id="IV.23rad4">
+						</label>
+
+								<label for="IV.23rad5">
+							<b>5</b><br><input type="radio" name="IV.23rad" value="5" id="IV.23rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="IV.23com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>24.</b> Programar y conducir sesiones informativas a las familias.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="IV.24rad1">
+							<b>1</b><br><input type="radio" name="IV.24rad" value="1" id="IV.24rad1" required>
+						</label>
+
+								<label for="IV.24rad2">
+							<b>2</b><br><input type="radio" name="IV.24rad" value="2" id="IV.24rad2">
+						</label>
+
+								<label for="IV.24rad3">
+							<b>3</b><br><input type="radio" name="IV.24rad" value="3" id="IV.24rad3">
+						</label>
+
+								<label for="IV.24rad4">
+							<b>4</b><br><input type="radio" name="IV.24rad" value="4" id="IV.24rad4">
+						</label>
+
+								<label for="IV.24rad5">
+							<b>5</b><br><input type="radio" name="IV.24rad" value="5" id="IV.24rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="IV.24com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>25.</b> Implicar las familias en la construcción y colaboración de la estructura deportiva del club.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="IV.25rad1">
+							<b>1</b><br><input type="radio" name="IV.25rad" value="1" id="IV.25rad1" required>
+						</label>
+
+								<label for="IV.25rad2">
+							<b>2</b><br><input type="radio" name="IV.25rad" value="2" id="IV.25rad2">
+						</label>
+
+								<label for="IV.25rad3">
+							<b>3</b><br><input type="radio" name="IV.25rad" value="3" id="IV.25rad3">
+						</label>
+
+								<label for="IV.25rad4">
+							<b>4</b><br><input type="radio" name="IV.25rad" value="4" id="IV.25rad4">
+						</label>
+
+								<label for="IV.25rad5">
+							<b>5</b><br><input type="radio" name="IV.25rad" value="5" id="IV.25rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="IV.25com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>26.</b> Mantener las familias informadas respeto a la progresión y el desarrollo de su hijo/a.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="IV.26rad1">
+							<b>1</b><br><input type="radio" name="IV.26rad" value="1" id="IV.26rad1" required>
+						</label>
+
+								<label for="IV.26rad2">
+							<b>2</b><br><input type="radio" name="IV.26rad" value="2" id="IV.26rad2">
+						</label>
+
+								<label for="IV.26rad3">
+							<b>3</b><br><input type="radio" name="IV.26rad" value="3" id="IV.26rad3">
+						</label>
+
+								<label for="IV.26rad4">
+							<b>4</b><br><input type="radio" name="IV.26rad" value="4" id="IV.26rad4">
+						</label>
+
+								<label for="IV.26rad5">
+							<b>5</b><br><input type="radio" name="IV.26rad" value="5" id="IV.26rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="IV.26com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+				</div>
+
+				<div class="validaAmb">
+					<div class="tituloAmb cellAmb">
+						<h3><b>V.</b> Liderar, comunicar y utilizar empatía</h3>
+					</div>
+
+					<div class="legClaridadAmb cellAmb">
+						<h4>
+							<label onclick="alert('1 = Muy confusa\n5 = Totalmente clara')">Claridad</label>
+						</h4>
+					</div>
+
+					<div class="legComentarioAmb cellAmb">
+						<h4>
+							Comentarios <b>(opcional)</b>
+						</h4>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>27.</b> Emplear habilidades comunicativas.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="V.27rad1">
+							<b>1</b><br><input type="radio" name="V.27rad" value="1" id="V.27rad1" required>
+						</label>
+
+								<label for="V.27rad2">
+							<b>2</b><br><input type="radio" name="V.27rad" value="2" id="V.27rad2">
+						</label>
+
+								<label for="V.27rad3">
+							<b>3</b><br><input type="radio" name="V.27rad" value="3" id="V.27rad3">
+						</label>
+
+								<label for="V.27rad4">
+							<b>4</b><br><input type="radio" name="V.27rad" value="4" id="V.27rad4">
+						</label>
+
+								<label for="V.27rad5">
+							<b>5</b><br><input type="radio" name="V.27rad" value="5" id="V.27rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="V.27com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>28.</b> Demostrar disciplina y control emocional en entrenos y partidos.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="V.28rad1">
+							<b>1</b><br><input type="radio" name="V.28rad" value="1" id="V.28rad1" required>
+						</label>
+
+								<label for="V.28rad2">
+							<b>2</b><br><input type="radio" name="V.28rad" value="2" id="V.28rad2">
+						</label>
+
+								<label for="V.28rad3">
+							<b>3</b><br><input type="radio" name="V.28rad" value="3" id="V.28rad3">
+						</label>
+
+								<label for="V.28rad4">
+							<b>4</b><br><input type="radio" name="V.28rad" value="4" id="V.28rad4">
+						</label>
+
+								<label for="V.28rad5">
+							<b>5</b><br><input type="radio" name="V.28rad" value="5" id="V.28rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="V.28com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>29.</b> Demostrar conducta ejemplar personal y profesionalmente.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="V.29rad1">
+							<b>1</b><br><input type="radio" name="V.29rad" value="1" id="V.29rad1" required>
+						</label>
+
+								<label for="V.29rad2">
+							<b>2</b><br><input type="radio" name="V.29rad" value="2" id="V.29rad2">
+						</label>
+
+								<label for="V.29rad3">
+							<b>3</b><br><input type="radio" name="V.29rad" value="3" id="V.29rad3">
+						</label>
+
+								<label for="V.29rad4">
+							<b>4</b><br><input type="radio" name="V.29rad" value="4" id="V.29rad4">
+						</label>
+
+								<label for="V.29rad5">
+							<b>5</b><br><input type="radio" name="V.29rad" value="5" id="V.29rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="V.29com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>30.</b> Crear un entorno de práctica agradable y adecuado.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="V.30rad1">
+							<b>1</b><br><input type="radio" name="V.30rad" value="1" id="V.30rad1" required>
+						</label>
+
+								<label for="V.30rad2">
+							<b>2</b><br><input type="radio" name="V.30rad" value="2" id="V.30rad2">
+						</label>
+
+								<label for="V.30rad3">
+							<b>3</b><br><input type="radio" name="V.30rad" value="3" id="V.30rad3">
+						</label>
+
+								<label for="V.30rad4">
+							<b>4</b><br><input type="radio" name="V.30rad" value="4" id="V.30rad4">
+						</label>
+
+								<label for="V.30rad5">
+							<b>5</b><br><input type="radio" name="V.30rad" value="5" id="V.30rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="V.30com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>31.</b> Fomentar el gusto y el interés para la práctica de deportes y actividades físicas a lo largo de la vida.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="V.31rad1">
+							<b>1</b><br><input type="radio" name="V.31rad" value="1" id="V.31rad1" required>
+						</label>
+
+								<label for="V.31rad2">
+							<b>2</b><br><input type="radio" name="V.31rad" value="2" id="V.31rad2">
+						</label>
+
+								<label for="V.31rad3">
+							<b>3</b><br><input type="radio" name="V.31rad" value="3" id="V.31rad3">
+						</label>
+
+								<label for="V.31rad4">
+							<b>4</b><br><input type="radio" name="V.31rad" value="4" id="V.31rad4">
+						</label>
+
+								<label for="V.31rad5">
+							<b>5</b><br><input type="radio" name="V.31rad" value="5" id="V.31rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="V.31com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>32.</b> Aplicar técnicas de motivación y generar el compromiso con la práctica de la modalidad.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="V.32rad1">
+								<b>1</b><br><input type="radio" name="V.32rad" value="1" id="V.32rad1" required>
+							</label>
+
+								<label for="V.32rad2">
+								<b>2</b><br><input type="radio" name="V.32rad" value="2" id="V.32rad2">
+							</label>
+
+								<label for="V.32rad3">
+								<b>3</b><br><input type="radio" name="V.32rad" value="3" id="V.32rad3">
+							</label>
+
+								<label for="V.32rad4">
+								<b>4</b><br><input type="radio" name="V.32rad" value="4" id="V.32rad4">
+							</label>
+
+								<label for="V.32rad5">
+								<b>5</b><br><input type="radio" name="V.32rad" value="5" id="V.32rad5">
+							</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="V.32com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+				</div>
+
+				<div class="validaAmb">
+					<div class="tituloAmb cellAmb">
+						<h3><b>VI.</b> Participar de la gestión del club, de la promoción de la modalidad y captar nuevos adeptos</h3>
+					</div>
+
+					<div class="legClaridadAmb cellAmb">
+						<h4>
+							<label onclick="alert('1 = Muy confusa\n5 = Totalmente clara')">Claridad</label>
+						</h4>
+					</div>
+
+					<div class="legComentarioAmb cellAmb">
+						<h4>
+							Comentarios <b>(opcional)</b>
+						</h4>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>33.</b> Ayudar a elaborar y gestionar el proyecto institucional.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="VI.33rad1">
+							<b>1</b><br><input type="radio" name="VI.33rad" value="1" id="VI.33rad1" required>
+						</label>
+
+								<label for="VI.33rad2">
+							<b>2</b><br><input type="radio" name="VI.33rad" value="2" id="VI.33rad2">
+						</label>
+
+								<label for="VI.33rad3">
+							<b>3</b><br><input type="radio" name="VI.33rad" value="3" id="VI.33rad3">
+						</label>
+
+								<label for="VI.33rad4">
+							<b>4</b><br><input type="radio" name="VI.33rad" value="4" id="VI.33rad4">
+						</label>
+
+								<label for="VI.33rad5">
+							<b>5</b><br><input type="radio" name="VI.33rad" value="5" id="VI.33rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="VI.33com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>34.</b> Ayudar a administrar los recursos del club (económicos, materiales, humanos).
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="VI.34rad1">
+							<b>1</b><br><input type="radio" name="VI.34rad" value="1" id="VI.34rad1" required>
+						</label>
+
+								<label for="VI.34rad2">
+							<b>2</b><br><input type="radio" name="VI.34rad" value="2" id="VI.34rad2">
+						</label>
+
+								<label for="VI.34rad3">
+							<b>3</b><br><input type="radio" name="VI.34rad" value="3" id="VI.34rad3">
+						</label>
+
+								<label for="VI.34rad4">
+							<b>4</b><br><input type="radio" name="VI.34rad" value="4" id="VI.34rad4">
+						</label>
+
+								<label for="VI.34rad5">
+							<b>5</b><br><input type="radio" name="VI.34rad" value="5" id="VI.34rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="VI.34com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>35.</b> Organizar y gestionar los viajes y salidas para los partidos.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="VI.35rad1">
+							<b>1</b><br><input type="radio" name="VI.35rad" value="1" id="VI.35rad1" required>
+						</label>
+
+								<label for="VI.35rad2">
+							<b>2</b><br><input type="radio" name="VI.35rad" value="2" id="VI.35rad2">
+						</label>
+
+								<label for="VI.35rad3">
+							<b>3</b><br><input type="radio" name="VI.35rad" value="3" id="VI.35rad3">
+						</label>
+
+								<label for="VI.35rad4">
+							<b>4</b><br><input type="radio" name="VI.35rad" value="4" id="VI.35rad4">
+						</label>
+
+								<label for="VI.35rad5">
+							<b>5</b><br><input type="radio" name="VI.35rad" value="5" id="VI.35rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="VI.35com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>36.</b> Participar en la selección de los de materiales deportivos que el club adquiere.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="VI.36rad1">
+							<b>1</b><br><input type="radio" name="VI.36rad" value="1" id="VI.36rad1" required>
+						</label>
+
+								<label for="VI.36rad2">
+							<b>2</b><br><input type="radio" name="VI.36rad" value="2" id="VI.36rad2">
+						</label>
+
+								<label for="VI.36rad3">
+							<b>3</b><br><input type="radio" name="VI.36rad" value="3" id="VI.36rad3">
+						</label>
+
+								<label for="VI.36rad4">
+							<b>4</b><br><input type="radio" name="VI.36rad" value="4" id="VI.36rad4">
+						</label>
+
+								<label for="VI.36rad5">
+							<b>5</b><br><input type="radio" name="VI.36rad" value="5" id="VI.36rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="VI.36com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>37.</b> Participar en la promoción de la modalidad a nivel institucional (club) y sociedad, captando nuevos/as adeptos/as.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="VI.37rad1">
+							<b>1</b><br><input type="radio" name="VI.37rad" value="1" id="VI.37rad1" required>
+						</label>
+
+								<label for="VI.37rad2">
+							<b>2</b><br><input type="radio" name="VI.37rad" value="2" id="VI.37rad2">
+						</label>
+
+								<label for="VI.37rad3">
+							<b>3</b><br><input type="radio" name="VI.37rad" value="3" id="VI.37rad3">
+						</label>
+
+								<label for="VI.37rad4">
+							<b>4</b><br><input type="radio" name="VI.37rad" value="4" id="VI.37rad4">
+						</label>
+
+								<label for="VI.37rad5">
+							<b>5</b><br><input type="radio" name="VI.37rad" value="5" id="VI.37rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="VI.37com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>38.</b> Aplicar protocolos para la selección y detección de talentos deportivos.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="VI.38rad1">
+							<b>1</b><br><input type="radio" name="VI.38rad" value="1" id="VI.38rad1" required>
+						</label>
+
+								<label for="VI.38rad2">
+							<b>2</b><br><input type="radio" name="VI.38rad" value="2" id="VI.38rad2">
+						</label>
+
+								<label for="VI.38rad3">
+							<b>3</b><br><input type="radio" name="VI.38rad" value="3" id="VI.38rad3">
+						</label>
+
+								<label for="VI.38rad4">
+							<b>4</b><br><input type="radio" name="VI.38rad" value="4" id="VI.38rad4">
+						</label>
+
+								<label for="VI.38rad5">
+							<b>5</b><br><input type="radio" name="VI.38rad" value="5" id="VI.38rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="VI.38com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+				</div>
+
+				<div class="validaAmb">
+					<div class="tituloAmb cellAmb">
+						<h3><b>VII.</b> Formarse continuamente</h3>
+					</div>
+
+					<div class="legClaridadAmb cellAmb">
+						<h4>
+							<label onclick="alert('1 = Muy confusa\n5 = Totalmente clara')">Claridad</label>
+						</h4>
+					</div>
+
+					<div class="legComentarioAmb cellAmb">
+						<h4>
+							Comentarios <b>(opcional)</b>
+						</h4>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>39.</b> Reflexionar continuamente sobre su labor profesional.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="VII.39rad1">
+							<b>1</b><br><input type="radio" name="VII.39rad" value="1" id="VII.39rad1" required>
+						</label>
+
+								<label for="VII.39rad2">
+							<b>2</b><br><input type="radio" name="VII.39rad" value="2" id="VII.39rad2">
+						</label>
+
+								<label for="VII.39rad3">
+							<b>3</b><br><input type="radio" name="VII.39rad" value="3" id="VII.39rad3">
+						</label>
+
+								<label for="VII.39rad4">
+							<b>4</b><br><input type="radio" name="VII.39rad" value="4" id="VII.39rad4">
+						</label>
+
+								<label for="VII.39rad5">
+							<b>5</b><br><input type="radio" name="VII.39rad" value="5" id="VII.39rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="VII.39com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>40.</b> Poner en práctica un programa personal de formación continua.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="VII.40rad1">
+							<b>1</b><br><input type="radio" name="VII.40rad" value="1" id="VII.40rad1" required>
+						</label>
+
+								<label for="VII.40rad2">
+							<b>2</b><br><input type="radio" name="VII.40rad" value="2" id="VII.40rad2">
+						</label>
+
+								<label for="VII.40rad3">
+							<b>3</b><br><input type="radio" name="VII.40rad" value="3" id="VII.40rad3">
+						</label>
+
+								<label for="VII.40rad4">
+							<b>4</b><br><input type="radio" name="VII.40rad" value="4" id="VII.40rad4">
+						</label>
+
+								<label for="VII.40rad5">
+							<b>5</b><br><input type="radio" name="VII.40rad" value="5" id="VII.40rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="VII.40com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>41.</b> Investigar sobre aspectos relevantes de la modalidad, del entrenamiento y partidos
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="VII.41rad1">
+							<b>1</b><br><input type="radio" name="VII.41rad" value="1" id="VII.41rad1" required>
+						</label>
+
+								<label for="VII.41rad2">
+							<b>2</b><br><input type="radio" name="VII.41rad" value="2" id="VII.41rad2">
+						</label>
+
+								<label for="VII.41rad3">
+							<b>3</b><br><input type="radio" name="VII.41rad" value="3" id="VII.41rad3">
+						</label>
+
+								<label for="VII.41rad4">
+							<b>4</b><br><input type="radio" name="VII.41rad" value="4" id="VII.41rad4">
+						</label>
+
+								<label for="VII.41rad5">
+							<b>5</b><br><input type="radio" name="VII.41rad" value="5" id="VII.41rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="VII.41com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>42.</b> Potenciar continuamente su capacidad profesional.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="VII.42rad1">
+							<b>1</b><br><input type="radio" name="VII.42rad" value="1" id="VII.42rad1" required>
+						</label>
+
+								<label for="VII.42rad2">
+							<b>2</b><br><input type="radio" name="VII.42rad" value="2" id="VII.42rad2">
+						</label>
+
+								<label for="VII.42rad3">
+							<b>3</b><br><input type="radio" name="VII.42rad" value="3" id="VII.42rad3">
+						</label>
+
+								<label for="VII.42rad4">
+							<b>4</b><br><input type="radio" name="VII.42rad" value="4" id="VII.42rad4">
+						</label>
+
+								<label for="VII.42rad5">
+							<b>5</b><br><input type="radio" name="VII.42rad" value="5" id="VII.42rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="VII.42com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>43.</b> Actuar colaborativamente con otros/as entrenadores/as intercambiando conocimientos de la disciplina.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="VII.43rad1">
+							<b>1</b><br><input type="radio" name="VII.43rad" value="1" id="VII.43rad1" required>
+						</label>
+
+								<label for="VII.43rad2">
+							<b>2</b><br><input type="radio" name="VII.43rad" value="2" id="VII.43rad2">
+						</label>
+
+								<label for="VII.43rad3">
+							<b>3</b><br><input type="radio" name="VII.43rad" value="3" id="VII.43rad3">
+						</label>
+
+								<label for="VII.43rad4">
+							<b>4</b><br><input type="radio" name="VII.43rad" value="4" id="VII.43rad4">
+						</label>
+
+								<label for="VII.43rad5">
+							<b>5</b><br><input type="radio" name="VII.43rad" value="5" id="VII.43rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="VII.43com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+
+					<div class="rowValAmb">
+						<div class="competAmb cellAmb">
+							<b>44.</b> Indagar sobre la forma de introducir nuevas tecnologías y metodologías en los entrenamientos.
+						</div>
+						<div class="optsAmb cellAmb">
+							<div class="opts">
+								<label for="VII.44rad1">
+							<b>1</b><br><input type="radio" name="VII.44rad" value="1" id="VII.44rad1" required>
+						</label>
+
+								<label for="VII.44rad2">
+							<b>2</b><br><input type="radio" name="VII.44rad" value="2" id="VII.44rad2">
+						</label>
+
+								<label for="VII.44rad3">
+							<b>3</b><br><input type="radio" name="VII.44rad" value="3" id="VII.44rad3">
+						</label>
+
+								<label for="VII.44rad4">
+							<b>4</b><br><input type="radio" name="VII.44rad" value="4" id="VII.44rad4">
+						</label>
+
+								<label for="VII.44rad5">
+							<b>5</b><br><input type="radio" name="VII.44rad" value="5" id="VII.44rad5">
+						</label>
+							</div>
+						</div>
+
+						<div class="comAmb cellAmb">
+							<textarea name="VII.44com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+						</div>
+					</div>
+				</div>
+
+				<div class="question">
+					<p><b>45. </b>¿Hay alguna otra competencia importante para ser un buen entrenador de voleibol en edad escolar que no ha encontrado en este cuestionario? ¿Cuál?</p>
+					<i class="aviso_breve">(En el cuestionario final, será de respuesta abierta)</i>
+				</div>
+				<div class="valida">
+					<table>
+						<tr>
+							<th>
+								<label onclick="alert('1 = Muy confusa\n5 = Totalmente clara')">Claridad</label>
+							</th>
+						</tr>
+
+						<tr>
+							<td>
+								<div class="opts">
+									<label for="c.45rad1">
+										<b>1</b><br><input type="radio" name="c.45rad" value="1" id="c.45rad1" required>
+									</label>
+
+									<label for="c.45rad2">
+										<b>2</b><br><input type="radio" name="c.45rad" value="2" id="c.45rad2">
+									</label>
+
+									<label for="c.45rad3">
+										<b>3</b><br><input type="radio" name="c.45rad" value="3" id="c.45rad3">
+									</label>
+
+									<label for="c.45rad4">
+										<b>4</b><br><input type="radio" name="c.45rad" value="4" id="c.45rad4">
+									</label>
+
+									<label for="c.45rad5">
+										<b>5</b><br><input type="radio" name="c.45rad" value="5" id="c.45rad5">
+									</label>
+								</div>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<th>
+								Comentarios <b>(opcional)</b>
+							</th>
+						</tr>
+
+						<tr>
+							<td>
+								<textarea name="c.45com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+
+				<h2 class="titApartado"><b>D.</b> Opinión sobre la formación de los entrenadores que actúan en edad escolar</h2>
+				<hr class="apartado">
+
+
+				<div class="question">
+					<p><b>46.</b> En su opinión, ¿deberían existir cursos de actualización que fuesen obligatorios asistir periódicamente?</p>
+
+					<i class="aviso_breve">(En el cuestionario final, será de respuesta tipo Sí/No)</i>
+				</div>
+				<div class="valida">
+					<table>
+						<tr>
+							<th>
+								<label onclick="alert('1 = Muy confusa\n5 = Totalmente clara')">Claridad</label>
+							</th>
+						</tr>
+
+						<tr>
+							<td>
+								<div class="opts">
+									<label for="d.46rad1">
+										<b>1</b><br><input type="radio" name="d.46rad" value="1" id="d.46rad1" required>
+						</label>
+
+									<label for="d.46rad2">
+										<b>2</b><br><input type="radio" name="d.46rad" value="2" id="d.46rad2">
+									</label>
+
+									<label for="d.46rad3">
+										<b>3</b><br><input type="radio" name="d.46rad" value="3" id="d.46rad3">
+									</label>
+
+									<label for="d.46rad4">
+										<b>4</b><br><input type="radio" name="d.46rad" value="4" id="d.46rad4">
+									</label>
+
+									<label for="d.46rad5">
+										<b>5</b><br><input type="radio" name="d.46rad" value="5" id="d.46rad5">
+									</label>
+								</div>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<th>
+								Comentarios <b>(opcional)</b>
+							</th>
+						</tr>
+
+						<tr>
+							<td>
+								<textarea name="d.46com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<div class="question">
+					<p><b>47.</b> ¿Qué modalidad de curso de formación más le atrae participar</p>
+
+					<div id="opts47">
+						<label for="" onclick="alert('Esta pregunta es sólo para el cuestionario final, ahora necesitamos que nos diga si lo ve comprensible.')">
+							<input type="radio" disabled> Presencial
+						</label>
+
+						<label for="" onclick="alert('Esta pregunta es sólo para el cuestionario final, ahora necesitamos que nos diga si lo ve comprensible.')">
+							<input type="radio" disabled> Semipresencial
+						</label>
+
+						<label for="" onclick="alert('Esta pregunta es sólo para el cuestionario final, ahora necesitamos que nos diga si lo ve comprensible.')">
+							<input type="radio" disabled> A distancia
+						</label>
+					</div>
+				</div>
+				<div class="valida">
+					<table>
+						<tr>
+							<th>
+								<label onclick="alert('1 = Muy confusa\n5 = Totalmente clara')">Claridad</label>
+							</th>
+						</tr>
+
+						<tr>
+							<td>
+								<div class="opts">
+									<label for="rad1">
+										<b>1</b><br><input type="radio" name="rad" value="1" id="rad1" required>
+						</label>
+
+									<label for="rad2">
+										<b>2</b><br><input type="radio" name="rad" value="2" id="rad2">
+									</label>
+
+									<label for="rad3">
+										<b>3</b><br><input type="radio" name="rad" value="3" id="rad3">
+									</label>
+
+									<label for="rad4">
+										<b>4</b><br><input type="radio" name="rad" value="4" id="rad4">
+									</label>
+
+									<label for="rad5">
+										<b>5</b><br><input type="radio" name="rad" value="5" id="rad5">
+									</label>
+								</div>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<th>
+								Comentarios <b>(opcional)</b>
+							</th>
+						</tr>
+
+						<tr>
+							<td>
+								<textarea name="com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<div class="question">
+					<p><b>48.</b> Opcionalmente, deje algún comentario relevante sobre cómo crees debería ser la formación del entrenador o entrenadora de voleibol que actúa con jugadores/as en edad escolar</p>
+					<i class="aviso_breve">(En el cuestionario final, será de respuesta abierta)</i>
+				</div>
+				<div class="valida">
+					<table>
+						<tr>
+							<th>
+								<label onclick="alert('1 = Muy confusa\n5 = Totalmente clara')">Claridad</label>
+							</th>
+						</tr>
+
+						<tr>
+							<td>
+								<div class="opts">
+									<label for="d.48rad1">
+										<b>1</b><br><input type="radio" name="d.48rad" value="1" id="d.48rad1" required>
+						</label>
+
+									<label for="d.48rad2">
+										<b>2</b><br><input type="radio" name="d.48rad" value="2" id="d.48rad2">
+									</label>
+
+									<label for="d.48rad3">
+										<b>3</b><br><input type="radio" name="d.48rad" value="3" id="d.48rad3">
+									</label>
+
+									<label for="d.48rad4">
+										<b>4</b><br><input type="radio" name="d.48rad" value="4" id="d.48rad4">
+									</label>
+
+									<label for="d.48rad5">
+										<b>5</b><br><input type="radio" name="d.48rad" value="5" id="d.48rad5">
+									</label>
+								</div>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<th>
+								Comentarios <b>(opcional)</b>
+							</th>
+						</tr>
+
+						<tr>
+							<td>
+								<textarea name="d.48com" id="comentario" maxlength="280" placeholder="Haga clic o toque aquí para escribir texto."></textarea>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+
+
+				<br>
+				<br>
+
+				<center>
+					<div class="em_construcao">
+						APARTADO A SEGUIR AÚN EN CONSTRUCCIÓN
+						<h2 class="titApartado"><b>E.</b> Datos sociodemográficos</h2>
+						<hr class="apartado">
+
+
+						<div class="question">
+							<p><b>1. </b>Comunidad autónoma</p>
+
+							<select name="comunidad" size="1" class="select" required>
+								<option disabled selected>-- Seleccione una opción --</option>
+								<option value="Andalucía">Andalucía</option>
+								<option value="Aragón">Aragón</option>
+								<option value="Principado de Asturias">Principado de Asturias</option>
+								<option value="Islas Baleares">Islas Baleares</option>
+								<option value="Canarias">Canarias</option>
+								<option value="Cantabria">Cantabria</option>
+								<option value="Castilla-La Mancha">Castilla-La Mancha</option>
+								<option value="Castilla y León">Castilla y León</option>
+								<option value="Cataluña">Cataluña</option>
+								<option value="Comunidad Valenciana">Comunidad Valenciana</option>
+								<option value="Extremadura">Extremadura</option>
+								<option value="Galicia">Galicia</option>
+								<option value="La Rioja">La Rioja</option>
+								<option value="Comunidad de Madrid">Comunidad de Madrid</option>
+								<option value="Región de Murcia">Región de Murcia</option>
+								<option value="Comunidad Foral de Navarra">Comunidad Foral de Navarra</option>
+								<option value="País Vasco">País Vasco</option>
+								<option value="Ceuta">Ceuta</option>
+								<option value="Melilla">Melilla</option>																
+							</select>
+						</div>
+
+						<div class="question">
+							<p><b>2. </b>Localidad de residencia:</p>
+
+							<input type="text" name="localidad-residencia" maxlength="100" class="short" required>
+						</div>
+
+						<div class="question">
+							<p><b>3. </b>¿Cuántas horas por semana, aproximadamente, dedica usted al entrenamiento de voleibol?</p>
+
+							<input type="number" name="horas-de-entrenamiento" class="value" min="1" max="1000">
+						</div>
+
+						<div class="question">
+							<p><b>4. </b>E-mail:</p>
+
+							<input type="email" name="email" class="short">
+						</div>
+					</div>
+				</center>
+			</form>
+		</div>
+
+		<div class="rodape"></div>
+	</center>
+</body>
+
+</html>

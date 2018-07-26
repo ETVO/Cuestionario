@@ -4,7 +4,7 @@ function setup() {
 	var diameter = (2 / 3) * width;
 	var maxStroke = width / 60;
 	var minStroke = width / 300;
-
+	var npoints = 8;
 
 	createCanvas(width, height);
 
@@ -25,7 +25,7 @@ function setup() {
 	translate(width / 2, height / 2 + width / 20);
 
 
-	textAlign(LEFT);
+	textAlign(RIGHT);
 
 	stroke(0);
 	strokeWeight(minStroke);
@@ -34,16 +34,16 @@ function setup() {
 
 	stroke('#000');
 	strokeWeight(minStroke);
-	angleLimits(0, 0, diameter / 2 - diameter / 100, 6);
+	angleLimits(0, 0, diameter / 2 - diameter / 100, npoints);
 
 	stroke('#c78009');
 	strokeWeight(maxStroke);
 	fill(220);
-	polygon(0, 0, diameter / 2 - diameter / 100, 6, POINTS);
+	polygon(0, 0, diameter / 2 - diameter / 100, npoints, POINTS);
 
-	habilidades = ["Ataque", "Defesa", "Drible", "Fintas", "Chute", "Velocidade"]
+	habilidades = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII"]
 
-	polLabel(0, 0, diameter / 2, 6, habilidades, 0);
+	polLabel(0, 0, diameter / 2, npoints, habilidades, 0);
 
 	var ata = 87;
 	ata = map(ata, 0, 100, 0, diameter / 2);
@@ -63,12 +63,13 @@ function setup() {
 	var vel = 80;
 	vel = map(vel, 0, 100, 0, diameter / 2);
 
-	posHab = [ata, def, dri, fin, chu, vel];
+	posHab = [ata, def, dri, fin, chu, vel, 90, 76];
+
 
 	fill(190, 21, 33, 70);
 	stroke(190, 21, 33);
 	strokeWeight(minStroke);
-	habPolygon(0, 0, 6, posHab);
+	habPolygon(0, 0, npoints, posHab);
 }
 
 function polygon(x, y, radius, npoints, type) {
@@ -104,27 +105,6 @@ function polLabel(x, y, radius, npoints, labels, color) {
 	for (var a = 0; a < TWO_PI; a += angle) {
 		var tx = x + cos(a) * radius;
 		var ty = y + sin(a) * radius;
-
-		if (a == 0) {
-			tx += fontsize * 1 / 2;
-			ty += fontsize * 2 / 6;
-
-		} else if (a < HALF_PI) {
-			ty += fontsize * 3 / 2;
-			tx -= fontsize * 2 / 3;
-		} else if (a < PI) {
-			ty += fontsize * 3 / 2;
-			tx -= fontsize * 3 / 2;
-		} else if (a == PI) {
-			ty += fontsize * 2 / 7;
-			tx -= fontsize * 10 / 3;
-		} else if (a < 3 * HALF_PI) {
-			tx -= fontsize * 2;
-			ty -= fontsize * 2 / 3;
-		} else if (a > 3 * HALF_PI) {
-			tx += fontsize / 2;
-			ty -= fontsize * 1 / 3;
-		}
 
 		text(lbl[i], tx, ty);
 		i++;
