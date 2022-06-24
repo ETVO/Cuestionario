@@ -1,0 +1,53 @@
+
+
+#grafico {
+	margin: auto;
+}
+
+.recupere {
+	width: 40%;
+	margin: auto;
+}
+
+.submitDiv {
+	width: 100%;
+	text-align: right;
+}
+
+.select {
+	font-size: 0.9em;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .recupere {
+		width: 95%;
+	}
+}	
+
+@media only screen and (max-width: 1000px) {
+	@media only screen and (min-width: 501px) {
+		.recupere {
+			width: 70%;
+		}
+	}
+}	
+
+.box 
+{
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin: auto;
+    margin-right: 0;
+}
+
+.box#redbox 
+{
+    background: rgb(190, 21, 33, 0.6);
+}
+
+.box#bluebox 
+{
+    background: rgb(33, 21, 190, 0.6);
+}

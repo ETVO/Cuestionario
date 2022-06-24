@@ -201,7 +201,6 @@ function dropMenu() {
 		dropdown_content[i].classList.toggle("dropShow");
 	}
 }
-
 window.onclick = function (event) {
 	if (!event.target.matches('.dropdown_btn')) {
 

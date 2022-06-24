@@ -1,0 +1,275 @@
+.legAmb {
+    font-weight: bold;
+}
+
+.legAmbOpts {
+    font-weight: normal;
+    font-size: 0.7em;
+    line-height: 150%;
+    margin-top: 0;
+}
+
+.mobileb {
+    color: #0076BC;
+    display: none;
+}
+
+.page_btn {
+    color: #242424;
+    padding: 10px;
+    display: inline-block;
+    background: #f4f4f4;
+    border-radius: 3px;
+    border: solid 1px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    margin: auto;
+}
+
+.page_btn:hover, .page_btn:focus {
+    outline: none;
+    background: #ddd;
+}
+
+.btnsDiv {
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.submitDiv {
+    width: 50%;
+    text-align: right;
+}
+
+.pageDiv {
+    width: 50%;
+    text-align: left;
+}
+
+div.apartado {
+    display: none;
+}
+
+.entrar {
+    color: #242424;
+    padding: 10px;
+    display: inline-block;
+    background: #f4f4f4;
+    border-radius: 3px;
+    border: solid 1px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    margin: auto;
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.entrar:hover, .entrar:focus {
+    outline: none;
+    background: #0076BC;
+    color: white;
+}
+
+.page_control {
+    width: 100%; 
+    text-align: center;
+    cursor: default;
+}
+
+.apCfull {
+    width: 80%;
+    margin: auto;
+    background: #eee;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.apCfull h4 {
+    font-size: 1.2em;
+    margin: 10px;
+    padding: 10px 10px 0 10px;
+    
+    box-sizing: border-box;
+    background: #fcfcfc;
+    border-radius: 5px;
+}
+
+.apCfull h4 b {
+    color: #0076BC;
+}
+
+.apCfull p {
+    font-size: 0.7em;
+    margin-left: 10%;
+    padding: 0 0 0 10px;
+}
+
+.specialul {
+    background: rgba(0, 119, 188, 0.1);
+    padding: 10px 20px 10px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.ehcat {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    background: #dadada;
+    border: 2px solid #dadada;
+}
+
+.ehcat > label, .ehcat > div {
+    background: #fafafa;
+    padding: 5px;
+}
+
+.ehcat1 {
+    grid-template-areas: "ehcatlbl ehcatlbl" 
+    "foreh1 none" "foreh2 none" "foreh3 none" 
+    "foreh4 eh_rad1" "foreh5 eh_rad1"
+    "foreh9 eh_cual";
+}
+
+#eh_rad1 { 
+    grid-area: eh_rad1;
+}
+
+.ehcat2 {
+    grid-template-areas: "ehcatlbl ehcatlbl"
+    "foreh6 eh_rad2";
+}
+
+#eh_rad2 { 
+    grid-area: eh_rad2;
+    visibility: visible;
+}
+
+.ehcat3 {
+    grid-template-areas: "ehcatlbl ehcatlbl"
+    "foreh7 eh_rad3" "foreh8 eh_rad3";
+}
+
+#eh_rad3 { 
+    grid-area: eh_rad3;
+}
+
+.ehcatlbl {
+    grid-area: ehcatlbl;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+#foreh1 { 
+    grid-area: foreh1;
+}
+
+#foreh2 { 
+    grid-area: foreh2;
+}
+
+#foreh3 { 
+    grid-area: foreh3;
+}
+
+#foreh4 { 
+    grid-area: foreh4;
+}
+
+#foreh5 { 
+    grid-area: foreh5;
+}
+
+#foreh6 { 
+    grid-area: foreh6;
+}
+
+#foreh7 { 
+    grid-area: foreh7;
+}
+
+#foreh8 { 
+    grid-area: foreh8;
+}
+
+#foreh9 { 
+    grid-area: foreh9;
+}
+
+#eh9_text {
+    grid-area: eh_cual;
+    font-weight: bold;
+}
+
+#eh9_cual {
+    height: 50px;
+}
+
+.legContainer {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    width: 40%;
+    margin: auto;
+    grid-column-gap: 15px;
+
+    box-sizing: border-box;
+}
+
+.legGrid {
+    display: grid;
+
+    grid-template-columns: 1fr 1.5fr;
+
+    grid-column-gap: 10px;
+
+    box-sizing: border-box;
+}
+
+.legLbl {
+    margin: auto;
+    margin-left: 0;
+    text-align: left;
+}
+
+.legenda {
+    /* font-size: 12pt; */
+}
+
+.h_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.ared {
+	color: #BE1521;
+}
+
+#email {
+    padding: 10px;
+    background: #fafafa;
+    border: solid 1px #eee;
+    border-radius: 5px;
+}
+
+#email div {
+    padding-bottom: 8px;
+}
+
+#email #warning {
+    padding-top: 10px;
+    padding-bottom: 0 !important;
+}
+
+#inputEmail, #confirmEmail {
+    background: #fcfcfc;
+}
+
+.disabled {
+    opacity: 0.5;
+}

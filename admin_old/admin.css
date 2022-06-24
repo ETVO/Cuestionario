@@ -1,0 +1,164 @@
+.admin {
+    margin-left: 1em;
+}
+
+.admActions a {
+    text-decoration: none;
+    color: #242424;
+    font-size: 0.9em;
+}
+
+.admActions a:hover,
+.admActions a:focus,
+.admActions a:active {
+    color: #0076BC;
+}
+
+.admOpts {
+    text-align: left;
+}
+
+.admOpts th {
+    font-size: 1.1em;
+}
+
+.admOpts td {
+    font-size: 1em;
+}
+
+.admOpts a {
+    text-decoration: none;
+    color: #0076BC;
+}
+
+
+.admOpts a:hover,
+.admOpts a:active,
+.admOpts a:focus {
+    text-decoration: underline;
+}
+
+.admRegistros {
+    text-align: left;
+    /* margin: auto; */
+    border-spacing: 0;
+}
+
+.admRegistros caption,
+.admRegistros th {
+    text-align: center;
+}
+
+.admRegistros th,
+.admRegistros td {
+    padding: 8px;
+    color: inherit;
+}
+
+.admRegistros tr:nth-child(odd) {
+    background-color: #eaeaea;
+}
+
+.admRegistros .acciones a {
+    text-decoration: none;
+    color: #0076BC;
+    font-size: 0.9em;
+}
+
+.admRegistros .acciones a:hover,
+.admRegistros .acciones a:active,
+.admRegistros .acciones a:focus {
+    text-decoration: underline;
+}
+
+.admRegistros .registrosHeader {
+    background-color: #0076BC !important;
+    color: white !important;
+}
+
+.admRegistros .trExcluido {
+    /* color: rgba(255, 0, 0, 0.2); */
+    background-color: rgba(255, 0, 0, 0.2) !important;
+}
+
+.admRegistros .mail a {
+    font-weight: normal;
+    color: inherit;
+    text-decoration: none;
+}
+
+.admRegistros .mail a[href ^='mailto']::after {
+    content: '';
+    background: url(../imgs/link.svg) center right no-repeat;
+    background-size: 10px;
+    padding-right: 15px;
+    opacity: 0.5;
+}
+
+
+.admRegistros .mail a:hover,
+.admRegistros .mail a:active,
+.admRegistros .mail a:focus {
+    text-decoration: underline;
+}
+
+a {
+    cursor: pointer;
+}
+
+.datatable {
+    width: 100%;
+    display: flex;
+}
+
+.datatable table {
+    margin: auto;
+	border-spacing: 0;
+}
+
+.datatable td,
+.datatable th { 
+	padding: 2px 5px;
+}
+
+.datatable .cat {
+	font-weight: bold;
+}
+
+.datatable #a {
+    color: rgb(190, 21, 33, 1);
+}
+
+.datatable #b {
+    color: rgb(33, 21, 190, 1);
+}
+
+.datatable caption {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.box 
+{
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: #242424;
+    margin: auto;
+    margin-right: 0;
+}
+
+.box#redbox 
+{
+    background: rgb(190, 21, 33, 0.6);
+}
+
+.box#bluebox 
+{
+    background: rgb(33, 21, 190, 0.6);
+}
+
+.tesis small {
+    font-weight: normal;
+    /* opacity: 0.8; */
+}

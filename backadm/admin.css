@@ -1,0 +1,68 @@
+/*
+	cores:
+		- #BE1521 (vermelho primário)
+		- #810009 (vermelho secundário)
+		- #e31a29 (vermelho normal)
+		- #c78009 (ouro primário)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+}
+
+#togglePassword {
+    border: 0;
+    padding: 0;
+    background: none;
+}
+
+hr {
+    border: solid 1px #c78009;
+    opacity: 1;
+}
+
+.link a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link a:hover,
+.link a:active {
+    color: var(--bs-primary);
+}
+
+.link a span {
+    color: var(--bs-primary);
+}
+
+.cita img {
+    width: 15px;
+    height: auto;
+}
+
+.cita img:first-of-type {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: .5rem;
+} 
