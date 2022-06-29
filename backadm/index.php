@@ -13,6 +13,12 @@ if (isset($_SESSION['pass'])) {
     }
 }
 
+$page = '';
+
+if(isset($_GET['p'])) {
+    $page = $_GET['p'];
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -41,7 +47,24 @@ if (isset($_SESSION['pass'])) {
                 <span class="bi-box-arrow-left me-1"></span>Cerrar sesión
             </a> 
             <?php
-            include 'panel.php';
+
+            switch($page) {
+                case 'registros':
+                    include_once './pages/registros.php';
+                    break;
+
+                case 'grafico':
+                    include_once './pages/grafico.php';
+                    break;
+
+                case 'general':
+                    include_once './pages/general.php';
+                    break;
+
+                default:
+                    include_once './pages/panel.php';
+                    break;
+            }
         } else {
             include 'login.php';
         ?>

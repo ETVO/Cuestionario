@@ -55,7 +55,7 @@
 					<img src="imgs/logo_ub_negre.png" alt="Universitad de Barcelona" class="ubLogo">
 				</center>
 
-				<h3><b style="color: #BE1521;">Tesis doctoral:</b><br><b>Las competencias profesionales y las necesidades formativas del entrenador de voleibol implic<span onclick="admneut()" class="admneutral">ad</span>os en el deporte en edad escolar</b></h3>
+				<h3><b style="color: #BE1521;">Tesis doctoral:</b><br><b>Las competencias profesionales y las necesidades formativas del entrenador de voleibol implicados en el deporte en edad escolar</b></h3>
 
 				<h3><b style="color: #BE1521;">Doctoranda:</b><br>Martina Kieling Sebold Barros Rolim</h3>
 
@@ -66,12 +66,6 @@
 			<div id="rodape"></div>
 		</center>
 	</div>
-
-	<script>
-		function admneut() {
-			window.location.href="admin/";
-		}
-	</script>
 
 
 </body>

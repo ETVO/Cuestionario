@@ -56,5 +56,10 @@
         fclose($output); 
 
         if($attachment) readfile($filename);
+        
+        mysqli_close($conn);
     }
-?>
+
+    function get_conn() {
+        return $GLOBALS['conn'];
+    }

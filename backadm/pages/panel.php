@@ -1,9 +1,4 @@
 <?php
-$semana = date("D");
-
-$semanaarray = array("Mon" => "lunes", "Tue" => "martes", "Wed" => "miércoles", "Thu" => "jueves", "Fri" => "viernes", "Sat" => "sábado", "Sun" => "domingo");
-
-$dia = $semanaarray[$semana];
 
 $title = urlencode('{{Plantilla:{{#time: md}}}}');
 
@@ -13,7 +8,7 @@ $cadena = fopen($url, "r");
 
 ?>
 
-<div class="panel">
+<div class="page panel">
 
     <h3 class="fw-normal mt-3">¡Bienvenida!</h3>
 
@@ -23,13 +18,19 @@ $cadena = fopen($url, "r");
 
     <div class="ps-3">
         <div class="link">
-            <a href="">Cuestionario Final <span class="small fw-light">(rfinal.csv)</span></a>
+            <a href="./export_csv/cuestionario_final.php" download>
+                Cuestionario Final <span class="small fw-light">(cuestionario_final.csv)</span>
+            </a>
         </div>
         <div class="link">
-            <a href="">Cuestionario Piloto <span class="small fw-light">(rpiloto.csv)</span></a>
+            <a href="./export_csv/cuestionario_piloto.php" download>
+                Cuestionario Piloto <span class="small fw-light">(cuestionario_piloto.csv)</span>
+            </a>
         </div>
         <div class="link">
-            <a href="">Participantes del Sorteo <span class="small fw-light">(sorteo.csv)</span></a>
+            <a href="./export_csv/lista_sorteo.php" download>
+                Participantes del Sorteo <span class="small fw-light">(lista_sorteo.csv)</span>
+            </a>
         </div>
     </div>
 
@@ -38,24 +39,24 @@ $cadena = fopen($url, "r");
 
     <div class="ps-3">
         <div class="link">
-            <a href=""><span class="small bi-table me-1"></span> Ver registros</a>
+            <a href="./index.php?p=registros"><span class="small bi-table me-1"></span> Ver registros</a>
         </div>
         <div class="link">
-            <a href=""><span class="small bi-asterisk me-1"></span> Recuperar grafico</a>
+            <a href="./index.php?p=grafico"><span class="small bi-asterisk me-1"></span> Recuperar grafico</a>
         </div>
         <div class="link">
-            <a href=""><span class="small bi-braces-asterisk me-1"></span> Graficos generales</a>
+            <a href="./index.php?p=general"><span class="small bi-braces-asterisk me-1"></span> Gráfico general</a>
         </div>
     </div>
 
     <div class="small bi-quote mt-3"></div>
     <div class="link">
-        <a class="d-flex mb-1" href="http://es.wikiquote.org/" target="_blank">
+        <a class="d-inline-flex mb-1" href="http://es.wikiquote.org/" target="_blank">
             <h5 class="my-auto">Cita del día</h5>
             <span class="my-auto ms-2 small bi-box-arrow-up-right fw-light">&nbsp;<small>Wikiquotes</small></span>
         </a>
     </div>
-    <div class="cita">
+    <div class="cita" id="cita">
         <?php
         if ($cadena) {
 

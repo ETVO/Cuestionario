@@ -215,14 +215,13 @@
                                 <br>
                                 <div id="grafico">
                                 </div>
-                                <button onclick="<?php echo "saveCanvas('Grafico - Estudio Final - Martina Kieling')"; ?>">
+                                <button onclick="saveCanvas('Grafico - Estudio Final - Martina Kieling')">
                                 Descargar grafico</button>
                             </div>
 
                         <?php
                         
-                    } 
-                    else {
+                    } else {
                         ?>
 
                             <div id="not_set">

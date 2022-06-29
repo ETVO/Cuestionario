@@ -12,6 +12,10 @@
     font-family: 'Nunito Sans', sans-serif;
 }
 
+html {
+    overflow-y:scroll;
+}
+
 h1,
 h2,
 h3,
@@ -40,6 +44,10 @@ hr {
     opacity: 1;
 }
 
+.page {
+    width: 100%;
+}
+
 .link a {
     text-decoration: none;
     color: inherit;
@@ -64,5 +72,49 @@ hr {
     width: 50px;
     height: 50px;
     object-fit: cover;
-    margin-right: .5rem;
-} 
+    margin-bottom: .5rem;
+    display: block;
+}
+
+select {
+    cursor: pointer;
+}
+
+#reloadForm {
+    cursor: pointer;
+    background: none;
+    border: none;
+
+    transition: transform .5s;
+}
+
+#reloadForm::before {
+    line-height: 1;
+    vertical-align: -0.2em;
+}
+
+#reloadForm:hover,
+#reloadForm:active {
+    transform: rotate(270deg);
+}
+
+tr.excluido td,
+tr.excluido th {
+    color: var(--bs-danger) !important;
+}
+
+.acciones button,
+.acciones a {
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0 .1rem;
+}
+
+#headerA {
+    color: #e31a29;
+}
+
+#headerB {
+    color: #2115be;
+}
