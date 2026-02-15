@@ -47,7 +47,7 @@ Visualizations are dynamically generated based on survey responses, providing im
 - **Visualization:** p5.js for custom graphics
 - **Libraries:**
   - jQuery for DOM manipulation
-  - Sisyphus.js for form data persistence
+  - (Sisyphus.js)[https://github.com/simsalabim/sisyphus] for form data persistence
   - SweetAlert for user notifications
   - PHPMailer for email functionality
   - Bootstrap (admin panel)
